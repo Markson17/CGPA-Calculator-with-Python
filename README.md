@@ -72,7 +72,7 @@ The output of running the script will look like this:
 ╘═════════════╧═════════════╧═════════════╧═══════════════════╛
 Total unit: 10
 Total score: 30
-Total CGPA is: 3.00/10.00
+Total CGPA is: 30.00/10.00
 Your CGPA is: 3.00
 ```
 

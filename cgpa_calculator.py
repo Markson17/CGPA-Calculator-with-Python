@@ -64,7 +64,7 @@ def cgpa_calculator(csv_file):
     # Calculate and return the CGPA if there are courses entered
     if total_unit > 0:
         cgpa = total_score / total_unit
-        return f"Your CGPA is: {cgpa:.2f}"
+        return f"Your CGPA is: {cgpa:.2f} / 4.00"
     else:
         return "No courses entered."
 
