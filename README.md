@@ -27,10 +27,10 @@ This Python script calculates the Cumulative Grade Point Average (CGPA) based on
 5. Run the script using the following command:
 
    ```
-   python script_name.py
+   python cgpa_calculator.py
    ```
 
-   Replace `script_name.py` with the actual name of the Python script.
+   Replace `cgpa_calculator.py` with the actual name of the Python script.
 
 6. The script will process the course details from the "courses.csv" file and display them in a tabular format. It will also calculate the total unit, total score, and CGPA. The result will be printed in the terminal or command prompt.
 
@@ -66,7 +66,9 @@ The output of running the script will look like this:
 ├─────────────┼─────────────┼─────────────┼───────────────────┤
 │ MAT201      │ 4           │ 3           │ 12                │
 ├─────────────┼─────────────┼─────────────┼───────────────────┤
-│ PHY301      │ 3           │ 2           │ 6                 │
+| PHY301      | 3           | 2           | 6                 |
+├─────────────┼─────────────┼─────────────┼───────────────────┤
+│ Total       │ 10          │             │ 30                │
 ╘═════════════╧═════════════╧═════════════╧═══════════════════╛
 Total unit: 10
 Total score: 30

@@ -14,7 +14,7 @@ def cgpa_calculator(csv_file):
     courses = []
     total_unit = 0
     total_score = 0
-    
+
     # Read course details from the CSV file
     with open(csv_file, "r") as file:
         reader = csv.reader(file)
@@ -44,6 +44,9 @@ def cgpa_calculator(csv_file):
     if not courses:
         return "No courses entered."
 
+    # Add the "Total" row to the courses list
+    courses.append(["Total", total_unit, "", total_score])
+
     # Create a table from the courses list
     headers = ["Course Code", "Course Unit", "Grade Point", "Total Grade Point"]
     table = tabulate(courses, headers=headers, tablefmt="fancy_grid", numalign="center")
@@ -57,7 +60,7 @@ def cgpa_calculator(csv_file):
 
     # Print the total CGPA
     print(f"Total CGPA is: {total_score:.2f}/{total_unit:.2f}")
-    
+
     # Calculate and return the CGPA if there are courses entered
     if total_unit > 0:
         cgpa = total_score / total_unit
