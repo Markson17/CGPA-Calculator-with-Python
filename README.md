@@ -73,7 +73,7 @@ The output of running the script will look like this:
 Total unit: 10
 Total score: 30
 Total CGPA is: 30.00/10.00
-Your CGPA is: 3.00
+Your CGPA is: 3.00/4.00
 ```
 
 The table displays the course code, course unit, grade point, and total grade point for each course. The total unit, total score, and CGPA are also shown.
