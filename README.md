@@ -30,7 +30,6 @@ This Python script calculates the Cumulative Grade Point Average (CGPA) based on
    python cgpa_calculator.py
    ```
 
-   Replace `cgpa_calculator.py` with the actual name of the Python script.
 
 6. The script will process the course details from the "courses.csv" file and display them in a tabular format. It will also calculate the total unit, total score, and CGPA. The result will be printed in the terminal or command prompt.
 
